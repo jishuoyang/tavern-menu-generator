@@ -15,7 +15,6 @@ const FAERUN_MENU = {
 		{ name: "Garlic and basil leg of lamb", price: 3, increment: 1, variability: 4, unit: "sp", category: [PRICING.expensive] },
 		{ name: "Spiced pork loin", price: 3, increment: 1, variability: 3, unit: "sp", category: [PRICING.expensive] },
 		{ name: "Oxtail in ginger and cinnamon", price: 2, increment: 1, variability: 3, unit: "sp", category: [PRICING.expensive] },
-		{ name: "Spiced pork loin", price: 3, increment: 1, variability: 3, unit: "sp", category: [PRICING.expensive] },
 		{ name: "Grilled fillet of salmon", price: 3, increment: 1, variability: 3, unit: "sp", category: [PRICING.expensive], specialities: [SPECIALITY.coastal] },
 		{ name: "Lobster with melted butter", price: 3, increment: 1, variability: 4, unit: "sp", category: [PRICING.expensive], specialities: [SPECIALITY.coastal] },
 		{ name: "Apple stuffed mushrooms", price: 5, increment: 2, variability: 2, unit: "cp", category: [PRICING.average, PRICING.expensive] },
