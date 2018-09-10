@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
 	<meta charset="utf-8">
 	<title>Tavern Menu Generator</title>
@@ -11,8 +11,45 @@
 
 <body>
 	<script src="js/scripts.js"></script>
-	
-	<div id="tavern-menu">
+
+	<div id="selection-section">
+		<form method="get">
+			<div class="selection-category hidden">
+				<label for="setting">Setting: </label>
+				<select id="setting" name="setting">
+					<option value="faerun">Faerun</option>
+				</select>
+			</div>
+			<div class="selection-category">
+				<label for="pricing">Menu Pricing: </label>
+				<select id="pricing" name="pricing">
+					<option value="cheap">Cheap</option>
+					<option value="average">Average</option>
+					<option value="expensive">Expensive</option>
+					<option value="premium" class="hidden">Premium</option>
+				</select>
+			</div>
+			<div class="selection-category">
+				<label for="variety">Menu Variety: </label>
+				<select id="variety" name="variety">
+					<option value="poor">Poor</option>
+					<option value="average">Average</option>
+					<option value="good">Good</option>
+				</select>
+			</div>
+			<div class="selection-category">
+				<label>Speciality Food: </label>
+				<label><input type="checkbox" name="specialities" value="coastal"/>Coastal</label>
+				<label><input type="checkbox" name="specialities" value="northern"/>Northern</label>
+				<label><input type="checkbox" name="specialities" value="southern"/>Southern</label>
+			</div>
+			<div class="selection-category">
+				<input type="submit" value="Generate!">
+			</div>
+		</form>
+	</div>
+
+	<div id="menu-section">
 	</div>
 </body>
 </html>
